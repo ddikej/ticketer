@@ -2,7 +2,7 @@
   "name": "ticketer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://varholak-peter.github.io/ticketer",
+  "homepage": "https://ddikej.github.io/ticketer",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "moment": "^2.22.2",
