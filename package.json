@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://ddikej.github.io/ticketer",
   "dependencies": {
-    "gh-pages": "^1.2.0",
     "moment": "^2.22.2",
     "randexp": "^0.4.0",
     "react": "^16.4.1",
@@ -18,5 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
