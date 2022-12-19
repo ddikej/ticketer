@@ -7,9 +7,7 @@ export const TheirMessage = ({ date, endTime, messageHash, startTime }) => (
       <span className="text">
         DPMK, a.s.
         <br />
-        SMS prestupny CL 1,10
-        <br />
-        EUR
+        SMS prestupny CL 1,10 EUR
         <br />
         Platnost od <span className="underline">{date}</span>
         <br />
