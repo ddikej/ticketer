@@ -33,7 +33,7 @@ export const generateFakeTimes = () =>
         divisorDate: time
           .clone()
           .locale("en")
-          .format("ddd,\u00A0HH:mm"),
+          .format("dddd\u00A0HH:mm"),
         endTime: time.clone().add(1, "hour").format("HH:mm"),
         receivedTime: time
           .clone()
