@@ -2,16 +2,11 @@
   justify-content: flex-start;
 }
 
-.message-wrapper--their .underline {
-  text-decoration: underline;
-  text-underline-offset: 1px;
-  text-decoration-thickness: 1px;
-}
 
 .message-wrapper--their .message {
   margin-right: 0;
   padding: 7px 18px;
-  padding-right: 30px;
+  padding-right: 20px;
   background-color: #e9e9eb;
   border-radius: 20px;
   padding-bottom: 10;
