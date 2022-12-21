@@ -2,9 +2,8 @@ import * as React from "react";
 import "./style.css";
 
 export const TheirMessage = ({ date, endTime, messageHash, startTime }) => (
-  <div className="message-wrapper message-wrapper--their">
-    <div className="message">
-      <span className="text">
+    <div className="imessage">
+      <p className="from-them">
         DPMK, a.s.
         <br />
         SMS prestupny CL 1,10 EUR
@@ -15,7 +14,7 @@ export const TheirMessage = ({ date, endTime, messageHash, startTime }) => (
         <span className="underline">{endTime}</span> hod.
         <br />
         {messageHash}
-      </span>
+      </p>
     </div>
-  </div>
 );
+

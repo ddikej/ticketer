@@ -1,20 +1,48 @@
-.message-wrapper--their {
-  justify-content: flex-start;
-}
-
-.message-wrapper--their .message {
-  margin-right: 0;
-  padding: 8px 15px 8px 15px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  background-color: #e9e9eb;
-  border-radius: 20px;
-}
-
-.message-wrapper--their .text {
-  color: #1d1d1d;
-}
-
-.text {
+.imessage {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: "Helvetica-Neue", "Helvetica";
   font-size: 18px;
+  max-width: 600px;
+  padding: 0px 10px;
+}
+
+.imessage p {
+  border-radius: 1.15rem;
+  line-height: 1.25;
+  max-width: 75%;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.imessage p::before,
+.imessage p::after {
+  bottom: -0.1rem;
+  content: "";
+  height: 1rem;
+  position: absolute;
+}
+
+p.from-them {
+  align-items: flex-start;
+  background-color: #e5e5ea;
+  color: #000;
+  padding-right: 0px;
+  margin-left: 0px;
+}
+
+p.from-them:before {
+  border-bottom-right-radius: 0.8rem 0.7rem;
+  border-left: 1rem solid #e5e5ea;
+  left: -0.35rem;
+  transform: translate(0, -0.1rem);
+}
+
+p.from-them::after {
+  background-color: #fff;
+  border-bottom-right-radius: 0.5rem;
+  left: 20px;
+  transform: translate(-30px, -2px);
+  width: 10px;
 }

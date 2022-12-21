@@ -1,10 +1,8 @@
 import * as React from "react";
-import "./style.css";
+import "./style.css"
 
 export const MyMessage = () => (
-  <div className="message-wrapper message-wrapper--mine">
-    <div className="message">
-      <span className="text">.</span>
+  <div className="imessage">
+      <p className="from-me">.</p>
     </div>
-  </div>
 );
