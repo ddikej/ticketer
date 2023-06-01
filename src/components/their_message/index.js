@@ -6,7 +6,7 @@ export const TheirMessage = ({ date, endTime, messageHash, startTime }) => (
       <p className="from-them">
         DPMK, a.s.
         <br />
-        SMS prestupny CL 1,10 EUR
+        SMS prestupny CL 1,50 EUR
         <br />
         Platnost od <span className="underline">{date}</span>
         <br />
