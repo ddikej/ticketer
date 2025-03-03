@@ -3,6 +3,6 @@ import "./style.css"
 
 export const MyMessage = () => (
   <div className="imessage">
-      <p className="from-me">.</p>
+      <p className="from-me">&nbsp;&nbsp;</p>
     </div>
 );

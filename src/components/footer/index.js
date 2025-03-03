@@ -1,5 +1,5 @@
 import * as React from "react";
-import footer from "assets/footer.JPEG";
+import footer from "assets/footer.png";
 
 const { Fragment } = React;
 

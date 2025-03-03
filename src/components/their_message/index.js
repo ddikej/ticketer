@@ -8,10 +8,10 @@ export const TheirMessage = ({ date, endTime, messageHash, startTime }) => (
         <br />
         SMS prestupny CL 1,50 EUR
         <br />
-        Platnost od <span className="underline">{date}</span>
+        Platnost <u><span className="underline">od {date}</span>
         <br />
         <span className="underline">{startTime}</span> do{" "}
-        <span className="underline">{endTime}</span> hod.
+        <span className="underline">{endTime}</span></u> hod.
         <br />
         {messageHash}
       </p>

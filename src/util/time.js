@@ -23,7 +23,7 @@ export const generateFakeTimes = () =>
     .concat([
       {
         offsetDays: 0,
-        startTime: moment().subtract(7, "minutes").format("HH:mm"),
+        startTime: moment().subtract(9, "minutes").format("HH:mm"),
       },
     ])
     .map(({ offsetDays, startTime }) => {
